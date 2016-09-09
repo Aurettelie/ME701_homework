@@ -1,0 +1,16 @@
+#!/bin/bash
+#Prompt for a file
+echo "Enter a file name. "
+#read file name
+read file
+x=$(pwd)
+cd
+mkdir trash > output.txt
+
+mv $x/$file trash/
+rm output.txt
+#check if file exists
+
+#if trash does not exist, create trash
+
+#move file to trash
