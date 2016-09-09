@@ -1,0 +1,6 @@
+#!/bin/bash
+#Print number of files
+echo -n "The number of files and subdirectories in the current directory is: "
+#list files upright and count lines
+ls -1 | wc -l
+
