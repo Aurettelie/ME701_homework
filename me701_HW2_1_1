@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+#Ask for input
+echo -n "Enter a temperature (in degrees Fahrenheit): "
+#read user input
+read F
+#convert to Celcius
+b=$((F-32))
+C=$(((F-32)*5/9))
+#Print off Celsius
+echo "In Celsius, this is $C degrees."
+
