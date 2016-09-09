@@ -10,4 +10,5 @@ b=$((F-32))
 C=$(((F-32)*5/9))
 #Print off Celsius
 echo "In Celsius, this is $C degrees."
-
+K=$((C+273))
+echo "In Kelvin, this is $K degrees."
